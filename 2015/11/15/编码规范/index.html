@@ -3,18 +3,42 @@
 <head>
   <meta charset="utf-8">
   
-  <title>我的第一篇 | 付太</title>
+  <title>编码规范 | 付太</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="我的第一篇博客">
+  <meta name="description" content="##声明顺序相关的属性声明应当归为一组，并按照下面的顺序排列：
+
+Positioning
+Box model
+Typographic
+Visual
+
+由于定位（positioning）可以从正常的文档流中移除元素，并且还能覆盖盒模型（box model）相关的样式，因此排在首位。盒模型排在第二位，因为它决定了组件的尺寸和位置。
+其他属性只是影响组件的内部（inside）或者是不影响前两组属性，因此">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇">
-<meta property="og:url" content="http://futai.github.io/2015/10/14/我的第一篇/index.html">
+<meta property="og:title" content="编码规范">
+<meta property="og:url" content="http://futai.github.io/2015/11/15/编码规范/index.html">
 <meta property="og:site_name" content="付太">
-<meta property="og:description" content="我的第一篇博客">
-<meta property="og:updated_time" content="2015-11-15T10:55:12.671Z">
+<meta property="og:description" content="##声明顺序相关的属性声明应当归为一组，并按照下面的顺序排列：
+
+Positioning
+Box model
+Typographic
+Visual
+
+由于定位（positioning）可以从正常的文档流中移除元素，并且还能覆盖盒模型（box model）相关的样式，因此排在首位。盒模型排在第二位，因为它决定了组件的尺寸和位置。
+其他属性只是影响组件的内部（inside）或者是不影响前两组属性，因此">
+<meta property="og:updated_time" content="2015-11-15T11:10:02.678Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我的第一篇">
-<meta name="twitter:description" content="我的第一篇博客">
+<meta name="twitter:title" content="编码规范">
+<meta name="twitter:description" content="##声明顺序相关的属性声明应当归为一组，并按照下面的顺序排列：
+
+Positioning
+Box model
+Typographic
+Visual
+
+由于定位（positioning）可以从正常的文档流中移除元素，并且还能覆盖盒模型（box model）相关的样式，因此排在首位。盒模型排在第二位，因为它决定了组件的尺寸和位置。
+其他属性只是影响组件的内部（inside）或者是不影响前两组属性，因此">
   
   
     <link rel="icon" href="/favicon.png">
@@ -84,11 +108,11 @@
           <section id="main">
             <div class="main-body-header">
 
-              <h1 class="header"><a class="page-title-link" href="../../../../categories/index.html">HTML</a></h1>
+              <h1 class="header">未分类</h1>
             </div>
             <div class="main-body-content">
               
-  <article id="post-我的第一篇" class="article article-single article-type-post" itemscope itemprop="blogPost">
+  <article id="post-编码规范" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
       <!--  -->
       
@@ -96,7 +120,7 @@
           
   
     <h1 class="article-title" itemprop="name">
-      我的第一篇
+      编码规范
     </h1>
   
 
@@ -104,19 +128,27 @@
       
       <p class="article-byline">
         <a href="" class="article-date">
-  <time datetime="2015-10-14T02:17:09.000Z" itemprop="datePublished">2015-10-14</time>
+  <time datetime="2015-11-15T11:02:20.000Z" itemprop="datePublished">2015-11-15</time>
 </a>
       </p>
       <div class="article-entry" itemprop="articleBody">
-        <p>我的第一篇博客</p>
+        <p>##声明顺序<br>相关的属性声明应当归为一组，并按照下面的顺序排列：</p>
+<ul>
+<li>Positioning</li>
+<li>Box model</li>
+<li>Typographic</li>
+<li>Visual</li>
+</ul>
+<p>由于定位（positioning）可以从正常的文档流中移除元素，并且还能覆盖盒模型（box model）相关的样式，因此排在首位。盒模型排在第二位，因为它决定了组件的尺寸和位置。</p>
+<p>其他属性只是影响组件的内部（inside）或者是不影响前两组属性，因此排在后面。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">  .declaration-order &#123;</span><br><span class="line">  </span><br><span class="line">  position: absolute;</span><br><span class="line">  top: 0;</span><br><span class="line">  right: 0;</span><br><span class="line">  bottom: 0;</span><br><span class="line">  left: 0;</span><br><span class="line">  z-index: 100;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line">  display: block;</span><br><span class="line">  float: right;</span><br><span class="line">  width: 100px;</span><br><span class="line">  height: 100px;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line">  font: normal 13px "Helvetica Neue", sans-serif;</span><br><span class="line">  line-height: 1.5;</span><br><span class="line">  color: #333;</span><br><span class="line">  text-align: center;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line">  background-color: #f5f5f5;</span><br><span class="line">  border: 1px solid #e5e5e5;</span><br><span class="line">  border-radius: 3px;</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line">  opacity: 1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>摘自<a href="http://codeguide.bootcss.com/" target="_blank" rel="external">bootstrap</a> </p>
 
       </div>
       <footer class="article-footer">
-        <a data-url="http://futai.github.io/2015/10/14/我的第一篇/" data-id="cih0f7xk700031wnq11h7g7he" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+        <a data-url="http://futai.github.io/2015/11/15/编码规范/" data-id="cih0f7xk300021wnqf5o9dsrt" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
         
         
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../../../tags/index.html">前端</a></li></ul>
-
       </footer>
     </div>
   </article>
@@ -149,20 +181,10 @@
     
 <nav id="article-nav">
   
-    <a href="../index.html" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
-      <p class="article-nav-title">
-        
-          总结
-        
-      </p>
-      <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
   
-  
-    <a href="../../13/index.html" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="../../../10/14/index.html" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">上一篇</strong>
-      <p class="article-nav-title">Hello World</p>
+      <p class="article-nav-title">总结</p>
       <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
     </a>
   
@@ -181,7 +203,7 @@
             
             <div class="item-thumbnail">
               
-<a href="../../../11/15/index.html" class="thumbnail">
+<a href="" class="thumbnail">
   
     <span class="thumbnail-image thumbnail-none"></span>
   
@@ -191,7 +213,7 @@
             
             <div class="item-inner">
               <p class="item-category"></p>
-              <p class="item-title"><a href="../../../11/15/index.html" class="title">编码规范</a></p>
+              <p class="item-title"><a href="" class="title">编码规范</a></p>
               <p class="item-date"><time datetime="2015-11-15T11:02:20.000Z" itemprop="datePublished">2015-11-15</time></p>
             </div>
           </li>
@@ -200,7 +222,7 @@
             
             <div class="item-thumbnail">
               
-<a href="../index.html" class="thumbnail">
+<a href="../../../10/14/index.html" class="thumbnail">
   
     <span style="background-image:url(/2015/10/14/总结/image.jpg
 )" alt="总结" class="thumbnail-image"></span>
@@ -211,7 +233,7 @@
             
             <div class="item-inner">
               <p class="item-category"></p>
-              <p class="item-title"><a href="../index.html" class="title">总结</a></p>
+              <p class="item-title"><a href="../../../10/14/index.html" class="title">总结</a></p>
               <p class="item-date"><time datetime="2015-10-14T04:35:53.000Z" itemprop="datePublished">2015-10-14</time></p>
             </div>
           </li>
@@ -220,7 +242,7 @@
             
             <div class="item-thumbnail">
               
-<a href="" class="thumbnail">
+<a href="../../../10/14/index.html" class="thumbnail">
   
     <span class="thumbnail-image thumbnail-none"></span>
   
@@ -230,7 +252,7 @@
             
             <div class="item-inner">
               <p class="item-category"><a class="article-category-link" href="../../../../categories/index.html">HTML</a></p>
-              <p class="item-title"><a href="" class="title">我的第一篇</a></p>
+              <p class="item-title"><a href="../../../10/14/index.html" class="title">我的第一篇</a></p>
               <p class="item-date"><time datetime="2015-10-14T02:17:09.000Z" itemprop="datePublished">2015-10-14</time></p>
             </div>
           </li>
@@ -239,7 +261,7 @@
             
             <div class="item-thumbnail">
               
-<a href="../../13/index.html" class="thumbnail">
+<a href="../../../10/13/index.html" class="thumbnail">
   
     <span class="thumbnail-image thumbnail-none"></span>
   
@@ -249,7 +271,7 @@
             
             <div class="item-inner">
               <p class="item-category"></p>
-              <p class="item-title"><a href="../../13/index.html" class="title">Hello World</a></p>
+              <p class="item-title"><a href="../../../10/13/index.html" class="title">Hello World</a></p>
               <p class="item-date"><time datetime="2015-10-13T03:07:06.623Z" itemprop="datePublished">2015-10-13</time></p>
             </div>
           </li>
